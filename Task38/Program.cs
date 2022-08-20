@@ -28,7 +28,7 @@ void FillArrayRandomNumbers(double[] numbers)
 {
     for (int i = 0; i < numbers.Length; i++)
     {
-        numbers[i] = Convert.ToDouble(new Random().Next(100, 1000)) / 100;
+        numbers[i] = Convert.ToDouble(new Random().Next(-100, 1000)) / 100;
     }
 }
 void PrintArray(double[] numbers)
