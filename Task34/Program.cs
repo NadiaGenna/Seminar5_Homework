@@ -10,7 +10,6 @@ void FillArray(int[] array, int min, int max)
         array[i] = new Random().Next(min, max);
     }
 }
-
 void WriteArray(int[] array)
 {
     Console.Write ("[");
@@ -22,7 +21,6 @@ void WriteArray(int[] array)
     Console.Write ("]");
     Console.WriteLine();
 }
-
 int QuantityPositive(int[] array)
 {
     int quantity = 0;
@@ -35,10 +33,9 @@ int QuantityPositive(int[] array)
     }
     return quantity;
 }
-
 FillArray(numbers, 100, 1000);
 WriteArray(numbers);
 Console.WriteLine();
 
 int quantity = QuantityPositive(numbers);
-Console.WriteLine($"Количество чётных чисел в этом массиве: {quantity}");
+Console.WriteLine($"Количество чётных элементов в этом массиве: {quantity}");
