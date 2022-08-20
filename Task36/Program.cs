@@ -17,7 +17,7 @@ void FillArrayRandomNumbers(int[] numbers)
 {
     for (int i = 0; i < numbers.Length; i++)
     {
-        numbers[i] = new Random().Next(1, 10);
+        numbers[i] = new Random().Next(-100, 100);
     }
 }
 void PrintArray(int[] numbers)
