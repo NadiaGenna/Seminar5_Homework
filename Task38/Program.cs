@@ -3,7 +3,7 @@
 
 Console.WriteLine("Введите количество элементов массива:");
 int size = Convert.ToInt32(Console.ReadLine());
-System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-En");
 double[] numbers = new double[size];
 FillArrayRandomNumbers(numbers);
 Console.Write("Массив: ");
